@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="2020WinterWeek5">
+	<test name="TestNGPracticeExercises" >
+  		<classes> 
+ 			<class name="TestNGPracticeExercises.ClassOne"/>
+ 			<class name="TestNGPracticeExercises.ClassTwo"/>
+  		</classes>
+  	</test>
+</suite>

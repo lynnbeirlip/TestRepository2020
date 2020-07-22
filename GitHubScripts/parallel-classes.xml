@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="2020WinterWeek7" parallel = "classes"  thread-count="2" >
+	<test name="ParallelClassesTest" >
+  		<classes> 
+ 			<class name="examples.ClassOne"/>
+ 			<class name="examples.ClassTwo"/>
+  		</classes>
+  	</test>
+</suite>  	
+  

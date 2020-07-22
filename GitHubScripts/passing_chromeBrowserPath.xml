@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PassBrowserPath" thread-count="3" parallel="tests"> 
+ 	 
+ 	<test name="ChromeTest">
+  	<parameter name="browser" value="C:\\Selenium\\chromedriver.exe" />
+ 		<classes>
+			<class name="passBrowserPath.IdXPathDemoTestNG" />
+		</classes>
+ 	</test>
+ 		
+</suite>
